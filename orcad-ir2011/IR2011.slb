@@ -1,0 +1,46 @@
+*version 8.0 1920801850
+@index
+symloc IR2011 0 1328
+*symbol IR2011
+d High and Low Side Driver
+@type p 8.0
+@attributes
+a 1 sp 9 0 12 -2 hln 100 REFDES=IR2011
+a 0 sp 11 0 12 60 hln 100 PART=IR2011
+a 0 sp 0 0 0 0 hln 100 MODEL=IR2011
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@REFDES %HIN %LIN %COM %LO %VS %HO %VB %VCC @MODEL
+@pins
+p 2 12 12 hln 100 HIN n 0 10 h
+a 0 s 1 0 9 8 hrn 100 PIN=1
+a 0 s 0:13 0 0 10 hln 100 ERC=i
+a 0 s 0:13 0 0 10 hln 100 FLOAT=n
+p 2 12 22 hln 100 LIN n 0 20 h
+a 0 s 1 0 9 18 hrn 100 PIN=2
+a 0 s 0:13 0 0 20 hln 100 ERC=i
+a 0 s 0:13 0 0 20 hln 100 FLOAT=n
+p 2 12 32 hln 100 COM n 0 30 h
+a 0 s 1 0 9 28 hrn 100 PIN=3
+a 0 s 0:13 0 0 30 hln 100 ERC=i
+a 0 s 0:13 0 0 30 hln 100 FLOAT=n
+p 2 12 42 hln 100 LO n 0 40 h
+a 0 s 1 0 9 38 hrn 100 PIN=4
+a 0 s 0:13 0 0 40 hln 100 ERC=i
+a 0 s 0:13 0 0 40 hln 100 FLOAT=n
+p 2 79 12 hrn 100 VS n 90 10 u
+a 0 s 1 0 80 10 hlb 100 PIN=5
+a 0 s 0:13 0 90 10 hln 100 ERC=o
+a 0 s 0:13 0 90 10 hln 100 FLOAT=n
+p 2 79 22 hrn 100 HO n 90 20 u
+a 0 s 1 0 80 20 hlb 100 PIN=6
+a 0 s 0:13 0 90 20 hln 100 ERC=o
+a 0 s 0:13 0 90 20 hln 100 FLOAT=n
+p 2 79 32 hrn 100 VB n 90 30 u
+a 0 s 1 0 80 30 hlb 100 PIN=7
+a 0 s 0:13 0 90 30 hln 100 ERC=o
+a 0 s 0:13 0 90 30 hln 100 FLOAT=n
+p 2 79 42 hrn 100 VCC n 90 40 u
+a 0 s 1 0 80 40 hlb 100 PIN=8
+a 0 s 0:13 0 90 40 hln 100 ERC=p
+a 0 s 0:13 0 90 40 hln 100 FLOAT=n
+@graphics 90 50 0 10 10
+r 0 10 0 80 50
